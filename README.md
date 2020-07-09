@@ -1,4 +1,4 @@
-# [Breaking Bad Cast and information](https://stevesbong.github.io/react-breakingbad-api/)
+# [Breaking Bad Cast and information API](https://stevesbong.github.io/react-breakingbad-api/)
 
 ### Website preview:
 
