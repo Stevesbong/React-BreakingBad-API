@@ -46,7 +46,7 @@ function App() {
 
   return (
     <div className="container">
-    <BrowserRouter>
+    <BrowserRouter basename="/react-breakingbad-api">
       <Header getQueryValue={ ( query ) => setQuery( query ) } />
       <SearchForm getQueryValue={ ( query ) => setQuery( query ) } />
       <Nav getQueryValue={ ( query ) => setQuery( query ) } />

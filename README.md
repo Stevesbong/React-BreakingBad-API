@@ -1,7 +1,6 @@
-# [Breaking Bad Cast and information]
-<!-- (https://stevesbong.github.io/) -->
+# [Breaking Bad Cast and information](https://stevesbong.github.io/react-breakingbad-api/)
 
-Website preview: Not available yet
+### Website preview:
 
 <img src="https://github.com/Stevesbong/Stevesbong.github.io/blob/master/img/breakingbad.png" width="600" height="700">
 
@@ -10,4 +9,4 @@ Website preview: Not available yet
 
 React project that uses the Breaking Bad API to show all the characters and filter character from displayed characters.
 
-__*Skills Used*__: CSS, JSX, React, Hooks, axios, and react router
+__*Skills Used*__: React, Hooks, axios, JSX, React router, HTML, CSS, and JavaScript.

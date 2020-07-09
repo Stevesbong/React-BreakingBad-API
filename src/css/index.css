@@ -90,6 +90,7 @@
   .not-found {
     width: 100%;
     text-align: center;
+    margin: 4em auto;
   }
   
   input {
