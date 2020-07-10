@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import Character from './Character';
 import Loading from '../ui/Loading';
@@ -18,6 +19,11 @@ const CharactersContainer = ({ isLoading, characters }) => {
                 />
             ) ) }
         </section> )
+}
+
+CharactersContainer.propTypes = {
+    isLoading: PropTypes.bool.isRequired,
+    characters: PropTypes.arrayOf(PropTypes.object).isRequired
 }
 
 export default CharactersContainer;

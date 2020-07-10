@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Character = ({ character }) => {
 
@@ -21,6 +22,10 @@ const Character = ({ character }) => {
             </div>
         </div>
     )
+}
+
+Character.propTypes = {
+    character: PropTypes.object.isRequired
 }
 
 export default Character;

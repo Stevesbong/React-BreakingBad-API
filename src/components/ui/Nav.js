@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-// Alive  Unknown  Deceased  Presumed dead  ?
+import PropTypes from 'prop-types';
+
 const Nav = ({getQueryValue}) => {
     return (
         <nav className="main-nav">
@@ -11,6 +12,10 @@ const Nav = ({getQueryValue}) => {
             </ul>
         </nav>
     )
+}
+
+Nav.propTypes = {
+    getQueryValue: PropTypes.func.isRequired
 }
 
 export default Nav;
