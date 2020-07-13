@@ -8,7 +8,7 @@ const Header = ({getQueryValue}) => {
     return (
         <header className="center">
             <NavLink to="/" onClick={ ()=> getQueryValue('')}>
-                <img src={ logo } alt='breaking bad' />
+                <img className="logo" src={ logo } alt='breaking bad' />
             </NavLink>
         </header>
     )
